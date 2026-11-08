@@ -6,10 +6,11 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    cout << "Hello World!\n";
-    cout << "Введите ФИО : ";
+    cout << "Привет!\n";
+    cout << "Введите имя : ";
     string a;
     cin >> a;
+    cout << "Введите возвраст : ";
     int v;
     cin >> v;
     cout << "Возвраст = " << v;
